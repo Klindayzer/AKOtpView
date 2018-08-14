@@ -7,6 +7,8 @@
 
 ## Example
 
+<img src="https://raw.githubusercontent.com/Klindayzer/AKOtpView/master/otp.gif">
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
@@ -22,7 +24,7 @@ pod 'AKOtpView'
 
 ## Author
 
-adhamalkhateeb, adhamykh@gmail.com
+Adham Alkhateeb, adhamykh@gmail.com
 
 ## License
 
