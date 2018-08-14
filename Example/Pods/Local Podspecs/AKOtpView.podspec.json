@@ -1,0 +1,22 @@
+{
+  "name": "AKOtpView",
+  "version": "0.1.0",
+  "summary": "A short description of AKOtpView A short description of AKOtpView.",
+  "description": "A short description of AKOtpView A short description of AKOtpView A short description of AKOtpView A short description of AKOtpView.",
+  "homepage": "https://github.com/adhamalkhateeb/AKOtpView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "adhamalkhateeb": "adhamykh@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/adhamalkhateeb/AKOtpView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AKOtpView/Classes/**/*"
+}

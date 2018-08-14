@@ -1,0 +1,16 @@
+PODS:
+  - AKOtpView (0.1.0)
+
+DEPENDENCIES:
+  - AKOtpView (from `../`)
+
+EXTERNAL SOURCES:
+  AKOtpView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AKOtpView: d6d72068070d029903113578e06634545bff4027
+
+PODFILE CHECKSUM: 0e85cdc709ff63ee919e90008ed87afa0fe08e9c
+
+COCOAPODS: 1.5.3

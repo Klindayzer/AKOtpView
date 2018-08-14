@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'AKOtpView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AKOtpView.'
+  s.summary          = 'Amaizing OTP View to handle otp/short codes'
+  s.swift_version = '4.1'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +19,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+AKOtpView is a custom view that allow users to handle & verify otp codes.
                        DESC
 
-  s.homepage         = 'https://github.com/adhamalkhateeb/AKOtpView'
+  s.homepage         = 'https://github.com/Klindayzer/AKOtpView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'adhamalkhateeb' => 'adhamykh@gmail.com' }
-  s.source           = { :git => 'https://github.com/adhamalkhateeb/AKOtpView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Klindayzer/AKOtpView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

@@ -7,17 +7,28 @@
 //
 
 import UIKit
+import AKOtpView
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var otpView: AKOtpView!
+    let correctOtp = "1234"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        otpView.setupView(withFont: UIFont.systemFont(ofSize: 20)) { (code) in
+            
+            if code != self.correctOtp {
+                self.otpView.isError = true
+            }
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        otpView.openKeyboard()
     }
 
 }
