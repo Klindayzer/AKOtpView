@@ -7,7 +7,7 @@
 
 ## Example
 
-<img src="https://raw.githubusercontent.com/Klindayzer/AKOtpView/master/otp.gif">
+<img src="https://raw.githubusercontent.com/Klindayzer/AKOtpView/master/otp.gif" width="200">
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
