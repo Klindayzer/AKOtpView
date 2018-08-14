@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AKOtpView_Example' do
+  pod 'AKOtpView', :path => '../'
+
+  target 'AKOtpView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
